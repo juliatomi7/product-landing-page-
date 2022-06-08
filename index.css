@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+  }
+  .main {
+    padding: 203px 0;
+    display: flex;
+    flex-direction: column;
+  }
+    @media (max-width: 600px) {
+      .main {
+      padding: 205px 0;
+    } 
+    }
